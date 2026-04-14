@@ -1,0 +1,17 @@
+{
+  "app_name": "Main",
+  "page_title": "Secure Message Board",
+  "table": {
+    "name": "messages",
+    "fields": [
+      { "name": "Username", "type": "string", "max_length": 50 },
+      { "name": "Content",  "type": "string", "max_length": 500 }
+    ]
+  },
+  "sequence": "msgSeq",
+  "features": {
+    "input_validation": true,
+    "reactive_refresh": true,
+    "order_by_desc": true
+  }
+}
